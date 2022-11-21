@@ -36,5 +36,5 @@ th, td
 
 tbody tr:nth-child(even) td 
 {
-	background-color: red;
+	background-color: yellow;
 }
