@@ -7,18 +7,20 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="Activity3.css">
 	
-
 <body>
-
+	
 	<table>
+		<CAPTION ALIGN=top><h3><b>Employee Table</b></h3></CAPTION>
 		<thead>
 			<tr>
-				<th>İsim</th>
+				<th>Department</th>
+				<th>Name</th>
 				<th>E-mail</th>
-				<th class="right">Servis Süresi</th>
+				<th>Years of Service</th>
 			</tr>
 		</thead>
 		<tbody>
+			<th ROWSPAN="4">Editorial</td>
 			<tr>
 				<td>Joel Murach</td>
 				<td>joelmurach@yahoo.com</td>
@@ -35,6 +37,7 @@
 				<td class="right">4</td>
 			</tr>
 			<tr>
+				<th ROWSPAN="2">Marketing</td>
 				<td>Judy Taylor</td>
 				<td>judy@murach.com</td>
 				<td class="right">39</td>
@@ -45,6 +48,7 @@
 				<td class="right">10</td>
 			</tr>
 			<tr>
+				<th ROWSPAN="2">Customer Service</td>
 				<td>Kelly Slivkoff</td>
 				<td>kelly@murach.com</td>
 				<td class="right">25</td>
@@ -54,9 +58,12 @@
 				<td>juliette@murach.com</td>
 				<td class="right">1</td>
 			</tr>
+			<tr>
+				<td COLSPAN=3 class="right"><b>Total Years of Service</b></td>
+				<td class="right"><b>105</b></td>
+			</tr>
 		</tbody>
 	</table>
-	
 	
 </body>
 </html>
